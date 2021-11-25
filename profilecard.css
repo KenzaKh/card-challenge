@@ -1,0 +1,68 @@
+body { background-image: linear-gradient(to right, rgb(52, 165, 167) , rgb(151, 238, 240)); 
+display: flex ;
+}
+.container { background-color: rgb(255, 255, 255); 
+    width: 380px ; 
+    height: 450px;
+     margin-right: auto; 
+     margin-left: auto; 
+     margin-top: 15%;
+     border-radius: 25px ;
+}
+.header{ 
+    width: 380px ; 
+    height: 160px;
+    background-image: url(header.PNG);
+    border-radius: 25px 25px 0px 0px;
+
+}
+.img { 
+    border-radius: 50%;
+        border: 6px solid white;
+        width: 108px; 
+        height: 108px; 
+        margin-left: 35% ;
+         margin-top: 25%;
+}
+.information { 
+    text-align: center;
+}
+.name { 
+    
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.age {
+    color: gray ; 
+    text-decoration-style: none;
+    margin-left: 3%; 
+    font-size: 18px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.city{
+color: gray;  
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.flex { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    margin-top: 15%;
+}
+.numbers { 
+    font-weight: bold ;
+     font-size: 18px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.txt{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray; 
+    text-align: center;
+    font-size: 14px; 
+    letter-spacing: 2px;
+}
